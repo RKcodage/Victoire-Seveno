@@ -1,0 +1,145 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(./fonts/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: "Roboto Light Italic";
+    src: url(./fonts/Roboto-LightItalic.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    list-style: none;
+}
+body {
+    opacity: 0;
+    transition: opacity 1s ease;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color:rgba(255, 235, 205, 0.476);
+    margin: 0px 20px;
+}
+.loaded {
+    opacity: 1;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    width: 100%;
+    padding: 20px 20px;
+}
+h1 {
+    font-size: 1.8rem;
+    font-weight: lighter;
+}
+
+#Stylist {
+    font-family: "Roboto Light Italic", sans-serif;
+    font-size: 1.4rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+#Mail {
+    display: flex;
+    justify-content: right;
+    font-size: 1.3rem;
+    padding-bottom: 10px;
+}
+
+#Mail:hover {
+    transform: scale(1.2);
+}
+#instagram {
+    display: flex;
+    justify-content: right;
+    font-size: 1.4rem;
+}
+#instagram:hover {
+    transform: scale(1.2);
+}
+
+#slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* width: 1280px; */
+    margin: auto;
+}
+#slider:hover .previous {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+#slider:hover .next {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+#slider img {
+    height: 650px;
+    box-shadow: rgba(0, 0, 0, 0.496) 0px 5px 15px;
+}
+.previous, .next {
+    position: absolute;
+    font-size: 80px;
+    top: 300px;
+    color: rgba(255, 255, 255, 0.685);
+    opacity: 0;
+    cursor: pointer;
+}
+.previous {
+    left: 0;
+}
+.next {
+    right: 0;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 560px) {
+    body {
+        margin: 0;
+    }
+    .header-container {
+        display: flex;
+    }
+    .logo {
+        margin-bottom: 20px;
+    }
+    .contact-zone {
+        display: flex;
+        justify-content:  center;
+        align-items: center;
+    }
+    #Mail {
+        padding: 0;
+        padding-right: 10px;
+        font-size: 1.2rem;
+        font-weight: 200;
+    }
+    #instagram {
+        font-size: 1.2rem;
+    }
+    #slider {
+        margin: 0;
+    }
+    #slider img {
+        margin: 0;
+        width: 100%;
+    }
+    footer {
+        margin-top: 20px;
+    }
+}
