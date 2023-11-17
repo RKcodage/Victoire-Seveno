@@ -28,7 +28,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: rgb( 254 , 254 , 226)/* rgba(255, 235, 205, 0.476) */;
+    background-color: #fbfbe5;
     margin: 0px 20px;
 }
 .loaded {
@@ -125,6 +125,7 @@ footer p {
     }
     .header-container {
         display: flex;
+        padding-top: 20px;
     }
     .contact-zone {
         display: flex;
@@ -142,14 +143,14 @@ footer p {
     }
     #slider {
         margin: 0;
-        padding-top: 40px;
+        padding-top: 120px;
     }
     #slider img {
         width: 100%;
+        height: auto;
     }
     footer {
-        margin-top: 80px;
-    }
+        margin-bottom: 40px;
     footer p {
         font-family: "JosefinSans Light Italic", sans-serif;
     }
