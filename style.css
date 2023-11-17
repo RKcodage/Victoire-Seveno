@@ -142,12 +142,11 @@ footer p {
         font-size: 1.2rem;
     }
     #slider {
-        margin: 0;
-        padding-top: 120px;
+        width: 100%;
     }
     #slider img {
         width: 100%;
-        height: auto;
+        margin: 0;
     }
     footer {
         margin-bottom: 40px;
