@@ -54,11 +54,11 @@ function startAutoScroll() {
 
 startAutoScroll();
 
-document.getElementById("slide").addEventListener("mouseover", function () {
+document.getElementById("slider").addEventListener("mouseover", function () {
   clearInterval(intervalId); // Arrête le défilement automatique lors du survol
 });
 
-document.getElementById("slide").addEventListener("mouseout", function () {
+document.getElementById("slider").addEventListener("mouseout", function () {
   // Redémarre le défilement automatique lorsque la souris quitte le slide
   startAutoScroll();
 });
