@@ -6,12 +6,20 @@
     font-family: "Roboto Light Italic";
     src: url(./fonts/Roboto-LightItalic.ttf);
 }
+@font-face {
+    font-family: "JosefinSans Regular";
+    src: url(./fonts/JosefinSans-Regular.ttf);
+}
+@font-face {
+    font-family: "JosefinSans Light Italic";
+    src: url(./fonts/JosefinSans-LightItalic.ttf);
+}
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
+    font-family: "JosefinSans Regular", sans-serif;
     list-style: none;
 }
 body {
@@ -34,13 +42,12 @@ body {
     padding: 20px 20px;
 }
 h1 {
-    font-size: 1.8rem;
-    font-weight: lighter;
+    font-size: 1.5rem;
 }
 
 #Stylist {
-    font-family: "Roboto Light Italic", sans-serif;
-    font-size: 1.4rem;
+    font-family: "JosefinSans Light Italic", sans-serif;
+    font-size: 1.2rem;
 }
 
 a {
@@ -102,10 +109,14 @@ a {
 }
 footer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: auto;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+}
+footer p {
+    font-family: "JosefinSans Light Italic", sans-serif;
 }
 
 @media screen and (max-width: 560px) {
@@ -116,7 +127,7 @@ footer {
         display: flex;
     }
     .logo {
-        margin-bottom: 20px;
+        /* margin-bottom: 20px; */
     }
     .contact-zone {
         display: flex;
@@ -134,12 +145,15 @@ footer {
     }
     #slider {
         margin: 0;
+        padding-top: 40px;
     }
     #slider img {
-        margin: 0;
         width: 100%;
     }
     footer {
-        margin-top: 20px;
+        margin-top: 80px;
+    }
+    footer p {
+        font-family: "JosefinSans Light Italic", sans-serif;
     }
 }
