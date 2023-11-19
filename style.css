@@ -28,7 +28,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: #fbfbe5;
+    background-color: rgba(245, 245, 245,);
     margin: 0px 20px;
 }
 .loaded {
@@ -91,7 +91,7 @@ a {
 }
 #slider img {
     height: 650px;
-    box-shadow: rgba(0, 0, 0, 0.496) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.698) 0px 5px 15px;
 }
 .previous, .next {
     position: absolute;
@@ -134,12 +134,12 @@ footer p {
     }
     #Mail {
         padding: 0;
-        padding-right: 10px;
+        padding-right: 15px;
         font-size: 1.2rem;
         font-weight: 200;
     }
     #instagram {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
     #slider {
         width: 100%;
@@ -150,6 +150,7 @@ footer p {
     }
     footer {
         margin-bottom: 40px;
+    }
     footer p {
         font-family: "JosefinSans Light Italic", sans-serif;
     }
