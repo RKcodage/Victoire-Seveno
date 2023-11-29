@@ -57,20 +57,20 @@ a {
 #Mail {
     display: flex;
     justify-content: right;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     padding-bottom: 10px;
 }
 
 #Mail:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 #instagram {
     display: flex;
     justify-content: right;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
 }
 #instagram:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 #slider {
