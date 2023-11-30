@@ -29,9 +29,6 @@ const slide = [
   "./img/image28.jpeg",
   "./img/image29.jpeg",
   "./img/image30.jpeg",
-  "./img/image31.jpeg",
-  "./img/image32.jpeg",
-  "./img/image33.jpeg",
 ];
 
 let number = 0;

@@ -97,7 +97,7 @@ a {
     position: absolute;
     font-size: 80px;
     top: 300px;
-    color: rgba(255, 255, 255, 0.685);
+    color: rgba(255, 255, 255, 0);
     opacity: 0;
     cursor: pointer;
 }
@@ -106,6 +106,7 @@ a {
 }
 .next {
     right: 0;
+    cursor: pointer;
 }
 footer {
     display: flex;
