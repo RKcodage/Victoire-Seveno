@@ -5,8 +5,6 @@ const slide = [
   "./img/image4.jpeg",
   "./img/image5.jpeg",
   "./img/image6.jpeg",
-  "./img/image7.jpeg",
-  "./img/image8.jpeg",
   "./img/image9.jpeg",
   "./img/image10.jpeg",
   "./img/image11.jpeg",
@@ -16,8 +14,6 @@ const slide = [
   "./img/image15.jpeg",
   "./img/image16.jpeg",
   "./img/image17.jpeg",
-  "./img/image18.jpeg",
-  "./img/image19.jpeg",
   "./img/image20.jpeg",
   "./img/image21.jpeg",
   "./img/image22.jpeg",
@@ -46,7 +42,7 @@ function ChangeSlide(sens) {
 function startAutoScroll() {
   intervalId = setInterval(function () {
     ChangeSlide(1);
-  }, 1800);
+  }, 1700);
 }
 
 startAutoScroll();
