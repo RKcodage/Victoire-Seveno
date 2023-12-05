@@ -92,13 +92,14 @@ a {
 #slider img {
     height: 650px;
     box-shadow: rgba(0, 0, 0, 0.698) 0px 5px 15px;
+    cursor: pointer;
 }
 .previous, .next {
     position: absolute;
-    font-size: 80px;
+    font-size: 180px;
     top: 300px;
-    color: rgba(255, 255, 255, 0);
-    opacity: 0;
+    color: rgba(255, 255, 255, 0.799);
+    opacity: 1;
     cursor: pointer;
 }
 .previous {
@@ -106,7 +107,6 @@ a {
 }
 .next {
     right: 0;
-    cursor: pointer;
 }
 footer {
     display: flex;
@@ -147,10 +147,11 @@ footer p {
     }
     #slider img {
         width: 100%;
-        height: auto;
-    }
+        margin: 0;
+        object-fit: cover;
+    } 
     footer {
-        padding-top: 20px;
+        padding-top: 30px;
     }
     footer p {
         font-family: "JosefinSans Light Italic", sans-serif;

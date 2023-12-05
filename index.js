@@ -56,6 +56,21 @@ document.getElementById("slider").addEventListener("mouseout", function () {
   startAutoScroll();
 });
 
+document.getElementById("slider").addEventListener("click", function (event) {
+  const sliderRect = document.getElementById("slider").getBoundingClientRect();
+  const clickX = event.clientX - sliderRect.left;
+
+  // Si le clic est à gauche de l'image, passe à la photo précédente
+  if (clickX < sliderRect.width / 2) {
+    ChangeSlide(-1);
+  } else {
+    // Sinon, passe à la photo suivante
+    ChangeSlide(1);
+  }
+});
+
+// Reste du code inchangé
+
 document.addEventListener("DOMContentLoaded", function () {
   // Récupérer le corps de la page
   var body = document.body;
