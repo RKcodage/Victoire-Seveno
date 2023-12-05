@@ -113,7 +113,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: auto;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 footer p {
